@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col  items-center justify-center ">
+    <div className="flex min-h-screen flex-col max-sm:px-3  items-center justify-center ">
       <HeroSection />
       <FeatureSection />
       <FeatureCategories />
@@ -19,8 +19,8 @@ export default function Home() {
       <AboutSection />
       <TestimonialSection />
       <FaqSection />
-      {/* <CTASection /> */}
-      {/* <Footer /> */}
+      <CTASection />
+      <Footer />
     </div>
   );
 }

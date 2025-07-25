@@ -56,8 +56,8 @@ const Navbar = () => {
   }, [activeItem]);
 
   return (
-    <section className="py-1 w-full sticky top-0 z-50 bg-background ">
-      <nav className="container mx-auto max-w-7xl  flex items-center justify-between">
+    <section className="py-1 max-sm:py-3 w-full sticky top-0 z-50 bg-background ">
+      <nav className="container max-sm:px-4 mx-auto max-w-7xl  flex items-center justify-between">
         {/* Left WordMark */}
         <a href={NAV_LOGO.url} className="flex items-center gap-2">
           <SquaresUnite />

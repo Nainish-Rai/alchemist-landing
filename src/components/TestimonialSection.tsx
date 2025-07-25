@@ -55,7 +55,7 @@ const testimonials = [
 const TestimonialSection = () => {
   return (
     <section className="py-32">
-      <div className="container bg-muted max-w-7xl rounded-lg p-6 md:p-12">
+      <div className="container bg-muted w-full max-w-screen lg:max-w-7xl rounded-lg p-6 md:p-12">
         <Carousel className="w-full">
           <div className="mb-8 flex justify-between px-1 lg:mb-12">
             <h2 className="text-2xl font-serif  font-medium text-foreground lg:text-6xl">
